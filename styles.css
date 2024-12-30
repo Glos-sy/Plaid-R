@@ -9,6 +9,14 @@ html {
     font-family: "Open Sans", serif;
 }
 
+body {
+    background-color: #f6f6f6;
+}
+
+body p {
+    letter-spacing: 0.08rem;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -17,8 +25,12 @@ a {
 /* #f6f6f6 */
 
 /* HEADER-NAV STYLING */
+header {
+    background-color: #f6f6f6;
+}
 header nav {
-    padding: 3.5rem 7rem;
+    background-color: white;
+    padding: 5.60% 11.2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +63,7 @@ header nav ul li {
 }
 
 .login-btn input {
-    padding: 1.6rem 6rem 1.6rem 2rem;
+    padding: 2.56% 9.6% 2.56% 3.2%;
     width: 100%;
     border: 1px solid black;
     font-size: 2.3rem;
@@ -74,7 +86,7 @@ ul i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -3rem;
+    margin-left: -4.8%;
 }
 
 .input-cs i {
@@ -84,23 +96,25 @@ ul i {
 /* MAIN STYLING */
 h1 {
     font-size: 6.5rem;
-    margin: 3.5rem 0;
+    margin: 5.60% 0;
 }
 
 section {
-    width: 80%;
-    margin: 0 auto;
+    background-color: #f6f6f6;
 }
 
 /* HERO SECTION */
 #hero {
     /* display: flex;
     justify-content: space-between; */
-    margin: 6rem 0 0 0;
-    padding-left: 10%;
+    margin: 0 0 0 0;
+    padding-left: 8%;
+    padding-top: 9.6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
+    background-color: white;
 }
 
 #hero div {
@@ -108,12 +122,13 @@ section {
 }
 
 .hero-txt {
-    margin-bottom: 8rem;
+    width: 40%;
+    margin-bottom: 12.8%;
 }
 
 .hero-txt p {
     font-size: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6.4%;
 }
 
 #hero video {
@@ -136,12 +151,12 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 3rem;
+    margin-left: 4.8%;
 }
 
 .hero-txt-btn .btn-1 {
     width: 155%;
-    padding: 1.5rem 9rem 1.5rem 2.4rem;
+    padding: 2.40% 11.2% 2.40% 3.84%;
     border-radius: 4rem;
     color: white;
     background-color: #111111;
@@ -152,7 +167,7 @@ section {
     background-color: transparent;
     color: black;
     border: 2px solid black;
-    padding: 1.5rem 2rem;
+    padding: 2.40% 3.2%;
     position: relative;
     right: -7.5rem;
     font-size: 2.3rem;
@@ -167,9 +182,358 @@ section {
 
 .talk-to-our-team i {
     font-size: 2rem;
-    margin-left: -4rem;
+    margin-left: -6.4%;
     color: white;
 }
 
 /* Trustee Slider STYLING */
 /* #8d7d70 */
+#trustee-slider {
+    background-color: white;
+    margin: -0.40% 0 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 10%;
+    border-bottom: 2px solid #8d7d70;
+    border-top: 2px solid #8d7d70;
+}
+
+#trustee-slider h2 {
+    color: #8d7d70;
+    font-size: 4rem;
+    font-weight: 500;
+    padding-right: 3%;
+}
+
+.slider-line {
+    background-color: #8d7d70;
+    height: 12.8%;
+    width: 0.432%;
+    color: #8d7d70;
+}
+
+#trustee-slider .s-one-img img {
+    width: 25%;
+    height: 25%;
+}
+
+#trustee-slider .s-one-img {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION ONE STYLING */
+#one {
+    width: 80%;
+    margin: 9.6% auto 0;
+}
+
+#one video {
+    width: 100%;
+}
+
+#one h1 {
+    width: 89%;
+    margin: 0 auto 4.8%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 7.6rem;
+}
+
+#one p {
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.7rem;
+    color: #383737;
+}
+
+/* #d2d2d2 */
+.s-one-btn {
+    width: 14%;
+    font-size: 2.2rem;
+    margin: 3.2% auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.1s linear;
+}
+
+.s-one-btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 0 1.6%;
+    background-color: #d2d2d2;
+    height: 30px;
+    width: 32px;
+    border-radius: 50%;
+    margin-top: 0.64%;
+    position: relative;
+}
+
+.s-one-btn a {
+    font-weight: 500;
+    width: 100%;
+}
+
+.s-one-btn a:hover {
+    color: white;
+}
+
+.s-one-btn i:hover {
+    transform: translateX(5px);
+    color: white;
+    background-color: none;
+}
+
+.s-one-btn:hover {
+    color: white;
+    width: 18%;
+    text-align: center;
+    background-color: #111111;
+    padding: 0.6% 2% 0.7% 1%;
+    border-radius: 10rem;
+}
+
+
+
+/* SECTION TWO STYLING */
+#two {
+    width: 80%;
+    margin: 11.5% auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#two div {
+    width: 50%;
+}
+
+#two img {
+    width: 100%;
+}
+
+#two h1 {
+    font-weight: 600;
+    font-size: 7.7rem;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#two .s-two-txt {
+    width: 47%;
+    position: relative;
+    bottom: 3%;
+}
+
+#two p {
+    font-size: 2.7rem;
+    color: #383737;
+    margin-bottom: 11%;
+}
+
+#two input {
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 2.6% 8% 2.6% 3.5%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 40%;
+    border-radius: 4.5rem;
+}
+
+#two i {
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+    left: -7%;
+}
+
+#two input:hover, #five input:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #111111;
+    color: black;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    width: 83%;
+    margin: 8% auto 0;
+}
+
+#three h1 {
+    width: 75%;
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+#three .three-txt-p1 {
+    font-size: 2.8rem;
+    color: #383737;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 15%;
+}
+
+.network {
+    background: url(https://images.ctfassets.net/ss5kfr270og3/33fA7JALIWK8AsvPz1QWdS/bcffffae376165ef9e8c06063943c33a/network-desktop__2_.png?fm=webp&w=2938&q=60);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -5%;
+}
+
+.network div {
+    border: 1px solid #a5a2a2;
+    border-radius: 3rem;
+    width: 118%;
+    margin: 20% 0;
+    padding: 17% 9%;
+    z-index: 2;
+}
+
+.network div h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 2.6% 0 2.8%;
+}
+
+.network div p {
+    font-size: 2.7rem;
+    color: #383737;
+    margin: 3% 0 2%;
+}
+
+.sub-network-a, .sub-network-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-network-a {
+    align-items: start;
+}
+
+.sub-network-a .slide-left {
+    position: relative;
+    left: -10%;
+}
+
+.network .sub-network-b {
+    align-items: end;
+    margin-top: 12%;
+}
+
+
+/* SECTION FOUR STYLING */
+#four {
+    margin: 12% auto 0;
+}
+
+#four img {
+    width: 45%;
+    border-radius: 2rem;
+}
+
+.four-txt {
+    text-align: center;
+    margin: 0;
+}
+
+.four-txt p, .four-txt h1 {
+    margin: 0;
+}
+
+.four-txt p {
+    letter-spacing: 0.2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.four-txt h1 {
+    font-size: 8rem;
+    margin-bottom: 5%;
+}
+
+.four-main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.s-four-img-p1, .s-four-img-p2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* SECTION FIVE STYLING */
+#five {
+    width: 80%;
+    margin: 11% auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#five div {
+    width: 50%;
+}
+
+#five img {
+    width: 100%;
+}
+
+#five .five-txt {
+    width: 45%;
+}
+
+#five h1 {
+    font-size: 7.5rem;
+    font-weight: 600;
+    margin: 0 0 3%;
+}
+
+#five p {
+    font-size: 2.58rem;
+    color: #1f1e1e;
+    margin-bottom: 11%;
+}
+
+#five input {
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 2.7% 8% 2.7% 4%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 55%;
+    border-radius: 4.5rem;
+}
+
+#five i {
+    font-size: 2.6rem;
+    color: white;
+    position: relative;
+    left: -7.6%;
+}

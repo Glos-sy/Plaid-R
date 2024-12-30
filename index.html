@@ -86,6 +86,7 @@
 
       <section id="trustee-slider">
         <h2>Trusted by</h2>
+        <div class="slider-line"></div>
         <div class="s-one-img">
           <img
             src="https://images.ctfassets.net/ss5kfr270og3/1PPfeKsBDG7aoWa77luc8M/107bb9dd876202d357e5357317478ed0/H_R_Block.png?fm=webp&w=370&q=60"
@@ -99,11 +100,12 @@
             src="https://images.ctfassets.net/ss5kfr270og3/1E01bVV3tpLqg9O60LkiTO/8e2adbd6f07a8a8e544504cd15ebef35/Venmo.png?fm=webp&w=370&q=60"
             alt="Venmo"
           />
+          <!--
           <img
             src="https://images.ctfassets.net/ss5kfr270og3/7ew7CzaUPUhrhNo3AGJoh8/943f59d7cb07d2d0aba8608ca93a107c/Cashapp.png?fm=webp&w=370&q=60"
             alt="CashApp"
           />
-          <!--
+
           <img
             src="https://images.ctfassets.net/ss5kfr270og3/2c7jEQrfFslmXFJnJJxLVX/038a4525a316b4dd92248dd3c5de587a/coinbase.png?fm=webp&w=370&q=60"
             alt="Coinbase"
@@ -182,7 +184,7 @@
           phone number.
         </p>
         <div class="s-one-btn">
-          <!-- icon -->
+          <i class="fa-solid fa-arrow-right"></i>
           <a href="https://plaid.com/layer/">See it in action</a>
         </div>
       </section>
@@ -197,7 +199,7 @@
           <a href="https://plaid.com/docs/"
             ><input type="button" value="Read API docs"
           /></a>
-          <!-- icon -->
+          <i class="fa-solid fa-arrow-right"></i>
         </div>
 
         <div class="s-two-img">
@@ -210,64 +212,72 @@
 
       <section id="three">
         <h1>Finance works better on Plaid's Network</h1>
-        <p>
+        <p class="three-txt-p1">
           It’s more than APIs. Plaid connects you to data and insights powered
           by millions of connections, helping you create instant experiences,
           stop more fraud, and grow revenue.
         </p>
         <div class="network">
           <!-- https://images.ctfassets.net/ss5kfr270og3/33fA7JALIWK8AsvPz1QWdS/bcffffae376165ef9e8c06063943c33a/network-desktop__2_.png?fm=webp&w=2938&q=60 -->
-          <div>
-            <h2>100M+ global users</h2>
-            <p>Get your products used by more people</p>
-          </div>
-          <div>
-            <h2>550K+ new daily connections</h2>
-            <p>Access real-time financial data</p>
-          </div>
-          <div>
-            <h2>12K+ financial institutions</h2>
-            <p>Reach people wherever they bank</p>
-          </div>
-          <div>
-            <h2>18 countries and growing</h2>
-            <p>Scale your business in more places</p>
-          </div>
+          <section class="sub-network-a">
+            <div class="slide-left">
+              <h2>100M+ global users</h2>
+              <p>Get your products used by more people</p>
+            </div>
+            <div>
+              <h2>550K+ new daily connections</h2>
+              <p>Access real-time financial data</p>
+            </div>
+          </section>
+          <section class="sub-network-b">
+            <div>
+              <h2>12K+ financial institutions</h2>
+              <p>Reach people wherever they bank</p>
+            </div>
+            <div>
+              <h2>18 countries and growing</h2>
+              <p>Scale your business in more places</p>
+            </div>
+          </section>
         </div>
       </section>
 
       <section id="four">
-        <p>SOLUTIONS THAT WORK TOGETHER</p>
-        <h1>Fast. Safe. Simple.</h1>
-        <div class="s-four-img-p1">
-          <div class="p1-a">
-            <img
-              src="https://images.ctfassets.net/ss5kfr270og3/5DKhwrvN38cbdRNIOC5N6B/e96a22d5f1259688dfd11d9d0b179c8a/Frame_1321321446.png?fm=webp&w=1220&q=60"
-              alt="Woman smiling and holding a phone, bar and pie charts around her"
-            />
-            <h2>Onboarding</h2>
-            <p>
-              Onboard customers in seconds with a flow used by 1 in 3 U.S.
-              adults with a bank account.
-            </p>
-            <!--  -->
-            <a href="https://plaid.com/plaid-link/">Onboard users faster</a>
-          </div>
+        <div class="four-txt">
+          <p>SOLUTIONS THAT WORK TOGETHER</p>
+          <h1>Fast. Safe. Simple.</h1>
+        </div>
+        <div class="four-main">
+          <div class="s-four-img-p1">
+            <div class="p1-a">
+              <img
+                src="https://images.ctfassets.net/ss5kfr270og3/5DKhwrvN38cbdRNIOC5N6B/e96a22d5f1259688dfd11d9d0b179c8a/Frame_1321321446.png?fm=webp&w=1220&q=60"
+                alt="Woman smiling and holding a phone, bar and pie charts around her"
+              />
+              <h2>Onboarding</h2>
+              <p>
+                Onboard customers in seconds with a flow used by 1 in 3 U.S.
+                adults with a bank account.
+              </p>
+              <i class="fa-solid fa-arrow-right"></i>
+              <a href="https://plaid.com/plaid-link/">Onboard users faster</a>
+            </div>
 
-          <div class="p1-b">
-            <img
-              src="https://images.ctfassets.net/ss5kfr270og3/5cDLAPLMUDGRyszrqVp8ls/8d48135efbc124573691491b77c96af8/Frame_1321321446__1_.png?fm=webp&w=1220&q=60"
-              alt="Woman smiling at phone, beside her are screenshots of payment options"
-            />
-            <h2>Payments</h2>
-            <p>
-              Instantly verify accounts, check balances, and support multi-rail
-              payments for faster, more secure money movement.
-            </p>
-            <!-- icon -->
-            <a href="https://plaid.com/solutions/payments/"
-              >Move money safely</a
-            >
+            <div class="p1-b">
+              <img
+                src="https://images.ctfassets.net/ss5kfr270og3/5cDLAPLMUDGRyszrqVp8ls/8d48135efbc124573691491b77c96af8/Frame_1321321446__1_.png?fm=webp&w=1220&q=60"
+                alt="Woman smiling at phone, beside her are screenshots of payment options"
+              />
+              <h2>Payments</h2>
+              <p>
+                Instantly verify accounts, check balances, and support
+                multi-rail payments for faster, more secure money movement.
+              </p>
+              <i class="fa-solid fa-arrow-right"></i>
+              <a href="https://plaid.com/solutions/payments/"
+                >Move money safely</a
+              >
+            </div>
           </div>
         </div>
 
@@ -282,7 +292,7 @@
               Stop fraud in more places with network-powered signals, real-time
               alerts, and advanced identity verification.
             </p>
-            <!-- icon -->
+            <i class="fa-solid fa-arrow-right"></i>
             <a href="https://plaid.com/solutions/fraud-compliance/"
               >Fight fraud at scale</a
             >
@@ -298,7 +308,7 @@
               Make smarter lending decisions with easy access to cash flow data
               and risk insights from the Plaid Network.
             </p>
-            <!-- icon -->
+            <i class="fa-solid fa-arrow-right"></i>
             <a href="https://plaid.com/check/consumer-report/"
               >Qualify more borrowers</a
             >
@@ -317,6 +327,7 @@
           <a href="https://plaid.com/solutions/open-finance/"
             ><input type="button" value="Explore open finance"
           /></a>
+          <i class="fa-solid fa-arrow-right"></i>
         </div>
 
         <div class="five-img">
