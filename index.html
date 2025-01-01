@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plaid</title>
+    <title>Enabling all companies to build fintech solutions </title>
+    <link rel="shortcut icon" href="https://qualified-production.s3.us-east-1.amazonaws.com/uploads/71d584a4cf0862c2f8fadaba0e0bc1b6ca7f88de348a8014e8329d9798b3587d.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
   </head>
   <body>
     <header>
@@ -27,19 +30,28 @@
           <li><a href="https://plaid.com/why-plaid/">Why Plaid</a></li>
           <div class="products">
             <li>Products</li>
-            <i class="fa-solid fa-chevron-down"></i>
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
           </div>
           <div class="use-cases">
             <li>Use cases</li>
-            <i class="fa-solid fa-chevron-down"></i>
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
           </div>
           <li><a href="https://plaid.com/pricing/">Pricing</a></li>
           <div class="developers">
             <li>Developers</li>
-            <i class="fa-solid fa-chevron-down"></i>
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
           </div>
           <div class="resources">
             <li>Resources</li>
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
           </div>
         </ul>
 
@@ -54,7 +66,7 @@
           </ul>
           <div class="input-cs">
             <input type="button" value="Contact sales" />
-            <i class="fa-solid fa-chevron-right input-cs"></i>
+            <!-- <i class="fa-solid fa-chevron-right input-cs-i"></i> -->
           </div>
         </div>
       </nav>
@@ -243,7 +255,7 @@
           </div>
         </section>
 
-        <section id="four">
+        <!-- <section id="four">
           <div class="four-txt">
             <p>SOLUTIONS THAT WORK TOGETHER</p>
             <h1>Fast. Safe. Simple.</h1>
@@ -323,7 +335,7 @@
               >
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section id="five">
           <div class="five-txt">
@@ -416,7 +428,6 @@
       </section>
 
       <section id="seven">
-        <!-- https://images.ctfassets.net/ss5kfr270og3/7HOKN7T3pSrW62Cpxias0t/a3aa4c23dc5610132d1fe5c2bfc9a40c/CTA_Banner_Art.png?fm=webp&w=2740&q=60 -->
         <h2>Manage connections with Plaid Portal</h2>
         <p>
           Plaid portal enables you to see the types of financial data you've
@@ -433,9 +444,11 @@
         <div class="eight-img">
           <img src="https://images.ctfassets.net/ss5kfr270og3/1S7dVr6rPmtXlYVvoEQk54/4d0ff91917a5678e799ab8507998f092/Desktop_Graphic.png?fm=webp&q=60&w=2430" alt="patterned background">
           <div class="eight-overlay"></div>
-          <h2>More customers.</h2>
-          <h2>Less fraudsters.</h2>
-          <h2>Higher revenue.</h2>
+          <div class="cover-img-txt">
+            <h2>More customers.</h2>
+            <h2>Less fraudsters.</h2>
+            <h2>Higher revenue.</h2>
+          </div>
         </div>
 
         <div class="eight-form">
@@ -453,35 +466,196 @@
               id="l-name"
               placeholder="Last name"
             />
+            <br>
             <input
               type="email"
               name="c-email"
               id="c-email"
               placeholder="Company email"
             />
+            <br>
             <input
               type="text"
               name="c-name"
               id="c-name"
               placeholder="Company name"
             />
+            <br>
             <input
               type="tel"
               name="p-number"
               id="p-number"
               placeholder="Phone number (optional)"
             />
-            <select name="" id="" placeholder="Country">
-              <option value=""></option>
-            </select>
-            <input type="button" value="Talk with our team" />
-            <!-- icon -->
+            <br>
+            <select>
+              <option value="Country">Country</option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AS">American Samoa</option>
+              <option value="AD">Andorra</option>
+              <option value="AO">Angola</option>
+              <option value="AI">Anguilla</option>
+              <option value="AQ">Antarctica</option>
+              <option value="AG">Antigua and Barbuda</option>
+              <option value="AR">Argentina</option>
+              <option value="AM">Armenia</option>
+              <option value="AW">Aruba</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="AZ">Azerbaijan</option>
+              <option value="BS">Bahamas</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BB">Barbados</option>
+              <option value="BY">Belarus</option>
+              <option value="BE">Belgium</option>
+              <option value="BZ">Belize</option>
+              <option value="BJ">Benin</option>
+              <option value="BM">Bermuda</option>
+              <option value="BT">Bhutan</option>
+              <option value="BO">Bolivia</option>
+              <option value="BA">Bosnia and Herzegovina</option>
+              <option value="BW">Botswana</option>
+              <option value="BV">Bouvet Island</option>
+              <option value="BR">Brazil</option>
+              <option value="IO">British Indian Ocean Territory</option>
+              <option value="BN">Brunei Darussalam</option>
+              <option value="BG">Bulgaria</option>
+              <option value="BF">Burkina Faso</option>
+              <option value="BI">Burundi</option>
+              <option value="KH">Cambodia</option>
+              <option value="CM">Cameroon</option>
+              <option value="CA">Canada</option>
+              <option value="CV">Cape Verde</option>
+              <option value="KY">Cayman Islands</option>
+              <option value="CF">Central African Republic</option>
+              <option value="TD">Chad</option>
+              <option value="CL">Chile</option>
+              <option value="CN">China</option>
+              <option value="CX">Christmas Island</option>
+              <option value="CC">Cocos (Keeling) Islands</option>
+              <option value="CO">Colombia</option>
+              <option value="KM">Comoros</option>
+              <option value="CG">Congo</option>
+              <option value="CD">Congo, the Democratic Republic of the</option>
+              <option value="CK">Cook Islands</option>
+              <option value="CR">Costa Rica</option>
+              <option value="CI">Côte d'Ivoire</option>
+              <option value="HR">Croatia</option>
+              <option value="CU">Cuba</option>
+              <option value="CY">Cyprus</option>
+              <option value="CZ">Czech Republic</option>
+              <option value="DK">Denmark</option>
+              <option value="DJ">Djibouti</option>
+              <option value="DM">Dominica</option>
+              <option value="DO">Dominican Republic</option>
+              <option value="EC">Ecuador</option>
+              <option value="EG">Egypt</option>
+              <option value="SV">El Salvador</option>
+              <option value="GQ">Equatorial Guinea</option>
+              <option value="ER">Eritrea</option>
+              <option value="EE">Estonia</option>
+              <option value="ET">Ethiopia</option>
+              <option value="FK">Falkland Islands (Malvinas)</option>
+              <option value="FO">Faroe Islands</option>
+              <option value="FJ">Fiji</option>
+              <option value="FI">Finland</option>
+              <option value="FR">France</option>
+              <option value="GF">French Guiana</option>
+              <option value="PF">French Polynesia</option>
+              <option value="TF">French Southern Territories</option>
+              <option value="GA">Gabon</option>
+              <option value="GM">Gambia</option>
+              <option value="GE">Georgia</option>
+              <option value="DE">Germany</option>
+              <option value="GH">Ghana</option>
+              <option value="GI">Gibraltar</option>
+              <option value="GR">Greece</option>
+              <option value="GL">Greenland</option>
+              <option value="GD">Grenada</option>
+              <option value="GP">Guadeloupe</option>
+              <option value="GU">Guam</option>
+              <option value="GT">Guatemala</option>
+              <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="VA">Holy See (Vatican City State)</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran, Islamic Republic of</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KR">Korea, Republic of</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao</option>
+                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia, Federated States of</option>
+                <option value="MD">Moldova, Republic of</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="ME">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="AN">Netherlands Antilles</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+            <input type="button" class="form-btn" value="Talk with our team" />
+            <i class="fa-solid fa-arrow-right"></i>
+
           </form>
           <p>
             By submitting this form, I confirm that I have read and understood
             Plaid's
             <a href="https://plaid.com/legal/#privacy-statement"
-              >Privacy Statement</a
+              >Privacy Statement.</a
             >
           </p>
         </div>
@@ -598,19 +772,23 @@
 
       <section id="f-5">
         <div class="f-5-a">
-          <!-- icon -->
-           <h2>United States</h2>
-           <!-- icon -->
+          <span class="material-symbols-outlined location">
+            location_on
+            </span>
+           <div class="blue-hover">
+            <h2>United States</h2>
+           <i class="fa-solid fa-chevron-down"></i>
+           </div>
         </div>
 
         <div class="f-5-b">
-          <!-- copyright -->
-           <p>2024 Plaid Inc.</p>
+          <i class="fa-regular fa-copyright"></i>
+           <p>2025 Plaid Inc.</p>
         </div>
 
         <div class="f-5-c">
-          <!--  -->
-          <!--  -->
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
         </div>
       </section>
     </footer>

@@ -36,24 +36,31 @@ header {
 }
 header nav {
     background-color: white;
-    padding: 5.60% 11.2%;
+    padding: 2% 11.2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 header nav a img {
-    width: 90%;
-    height: 8rem;
+    width: 120%;
+    height: 7rem;
+    position: relative;
+    right: 12rem;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 61%;
+    width: 92%;
+}
+
+header nav ul:hover {
+    background-color: white;
+    color:#111111;
 }
 
 header nav ul li {
@@ -61,27 +68,47 @@ header nav ul li {
     padding: 0 1rem;
 }
 
+header nav ul li:hover {
+    background-color: white;
+    color:#111111;
+}
+
+header nav div:hover {
+    background-color: white;
+    color:#111111;
+}
+
 .login-btn {
     width: 23%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .login-btn input {
-    padding: 2.56% 9.6% 2.56% 3.2%;
-    width: 100%;
+    width: 60rem;
     border: 1px solid black;
     font-size: 2.3rem;
     background-color: transparent;
     border-radius: 0.5rem;
     font-weight: bold;
+    padding: 1.5rem 4rem 1.5rem 1.5rem;
 }
 
 .developers, .use-cases, .products, .resources {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.use-cases li {
+    width: 15rem;
+}
+
+.developers span, .use-cases span, .products span, .resources span {
+    position: relative;
+    left: -1.2rem;
+    top: 0.18rem;
 }
 
 ul i {
@@ -92,7 +119,6 @@ ul i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -4.8%;
 }
 
 .input-cs i {
@@ -115,7 +141,6 @@ section {
     justify-content: space-between; */
     margin: 0 0 0 0;
     padding-left: 8%;
-    padding-top: 9.6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,22 +149,27 @@ section {
 }
 
 #hero div {
-    width: 50%;
+    width: 45%;
 }
 
 .hero-txt {
     width: 40%;
-    margin-bottom: 12.8%;
+}
+
+.hero-txt h1 {
+    margin: 0 0 1.8% 0;
 }
 
 .hero-txt p {
     font-size: 3rem;
-    margin-bottom: 6.4%;
+    margin-bottom: 6%;
 }
 
 #hero video {
     height: 40%;
     width: 68vw;
+    position: relative;
+    right: 21rem;
 }
 
 #trustee-slider {
@@ -149,7 +179,7 @@ section {
 
 .hero-txt-btn i {
     font-size: 2.5rem;
-    color: yellow;
+    /* color: yellow; */
 }
 
 .hero-txt-btn {
@@ -157,27 +187,31 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 4.8%;
+    position: relative;
+    left: 5rem;
 }
 
 .hero-txt-btn .btn-1 {
-    width: 155%;
-    padding: 2.40% 11.2% 2.40% 3.84%;
+    width: 180%;
+    padding: 12% 35% 12% 15%;
     border-radius: 4rem;
     color: white;
     background-color: #111111;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .hero-txt-btn .btn-2 {
     background-color: transparent;
     color: black;
     border: 2px solid black;
-    padding: 2.40% 3.2%;
+    padding: 5% 10%;
     position: relative;
-    right: -7.5rem;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     border-radius: 4rem;
+    position: relative;
+    left: 8rem;
+    font-weight: bold;
 }
 
 .talk-to-our-team {
@@ -187,9 +221,10 @@ section {
 }
 
 .talk-to-our-team i {
-    font-size: 2rem;
-    margin-left: -6.4%;
+    font-size: 2.5rem;
     color: white;
+    position: relative;
+    right: 4.2rem;
 }
 
 /* Trustee Slider STYLING */
@@ -236,7 +271,7 @@ section {
 /* SECTION ONE STYLING */
 #one {
     width: 80%;
-    margin: 9.6% auto 0;
+    margin: 0 auto;
 }
 
 #one video {
@@ -593,20 +628,40 @@ nav div {
     align-items: center;
 }
 
-nav div a{
+nav div a {
     font-weight: 500;
     width: 100%;
     font-size: 2.2rem;
     padding: 0 0 2% 0;
     margin-left: 7%;
+    margin-top: -6%;
+}
+
+nav div a:hover {
+    background-color: #111111;
+    color: white;
 }
 
 nav div i {
-    background-color: #d2d2d2;
     height: 30px;
-    width: 34px;
+    width: 34.5px;
     border-radius: 50%;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    position: relative;
+    top: -0.2rem;
+    left: 1.2rem;
+}
+
+nav div i:hover {
+    background-color: #111111;
+    color: white;
+}
+
+nav div:hover {
+    background-color: #111111;
+    padding: 1.5% 1% 1% 1%;
+    border-radius: 3rem;
+    color: white;
 }
 
 /* BUTTON-LINK END */
@@ -658,8 +713,8 @@ nav div i {
 
 .six-img-section div i {
     font-size: 2rem;
-    background-color: #a5a2a2;
-    width: 8%;
+    background-color:#c7c7c7;
+    width: 8.5%;
     padding: 2% 2.5% 2% 2%;
     border-radius: 50%;
 }
@@ -674,7 +729,7 @@ nav div i {
 #seven {
     background-color: white;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 10%;
     border: 1px solid black;
     height: 30rem;
     background: url(https://images.ctfassets.net/ss5kfr270og3/7HOKN7T3pSrW62Cpxias0t/a3aa4c23dc5610132d1fe5c2bfc9a40c/CTA_Banner_Art.png?fm=webp&w=2740&q=60) no-repeat;
@@ -731,18 +786,240 @@ nav div i {
 #eight {
     background-color: white;
     display: flex;
-    height: 80%;
+    width: 90%;
+    margin: 0 auto -140rem;
     justify-content: space-between;
     align-items: center;
 }
 
+.eight-img {
+    width: 55%;
+}
+
+.eight-img img {
+    width: 100%;
+    height: 102rem;
+    border-top-left-radius: 1rem;
+}
+
+.eight-img .eight-overlay {
+    margin: 0;
+    background-color: rgba(49, 193, 255, 0.5);
+    border-top-left-radius: 1rem;
+    width: 100%;
+    height: 102rem;
+    position: relative;
+    bottom: 102.3rem;
+}
+
+.cover-img-txt {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 177rem;
+}
+
+.cover-img-txt h2 {
+    font-size: 8.3rem;
+}
+
+.eight-form {
+    width: 50%;
+    height: 102rem;
+    position: relative;
+    bottom: 74rem;
+    left: 10rem;
+}
+
+.eight-form h3 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.eight-form input, select {
+    padding: 2rem;
+    width: 73.4%;
+    margin-bottom: 3.5%;
+    font-size: 2.2rem;
+    border-radius: 0.9rem;
+}
+
+.eight-form input:focus {
+    outline: none;
+}
+
+select {
+    color:#616060;
+}
+
+.eight-form i {
+    font-size: 2.7rem;
+    position: relative;
+    right: 16rem;
+    top: 0.2rem;
+    color: white;
+}
+
+#l-name, #f-name {
+    width: 35%;
+}
+
+#f-name {
+    margin-right: 3%;
+}
+
+.form-btn {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    background-color: #111111;
+    color: white;
+    border: none;
+    margin-bottom: 9%;
+}
+
+#eight p {
+    font-size: 2.2rem;
+    color: #292929;
+    width: 80%;
+}
+
+#eight a {
+    border-bottom: 1px solid black;
+    padding-top: 0.5rem;
+}
+
+
 
 /* FOOTER */
 footer {
+    padding: 3% 0;
     display: flex;
     flex-direction: column;
+    background-color: #111111;
+    color: white;
+    margin-bottom: 0;
 }
 
 footer li {
     list-style-type: none;
+}
+
+.footer-main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-main section {
+    margin: 7% 0;
+    background-color: #111111;
+    color: #f6f6f6;
+    border-top: 2px solid #f6f6f6;
+    width: 20%;
+}
+
+.footer-main section div {
+    border-top: 2px solid #f6f6f6;
+}
+
+.footer-main section h2 {
+    font-size: 2.5rem;
+    padding: 6% 0 2.5% 0;
+}
+
+.footer-main section li {
+    padding: 4% 0;
+}
+
+.footer-main section a {
+    color: #f6f6f6;
+    font-size: 2.05rem;
+    letter-spacing: 0.1rem;
+}
+
+.footer-main section a:hover {
+    color: #4661f6;
+}
+
+.f-2, .f-3, .f-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-2-b, .f-3-b, .f-4-b {
+    margin-top: 40%;
+}
+
+#f-5 {
+    width: 80%;
+    margin: 0 auto 5%;
+    background-color: #111111;
+    color:#f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-5-a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.f-5-a .blue-hover, .f-5-b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-5-a .blue-hover {
+    position: relative;
+    left: 5%;
+}
+
+.f-5-a .blue-hover:hover {
+    color: #4661f6;
+    cursor: pointer;
+}
+
+.fa-chevron-down {
+    position: relative;
+    left: 6%;
+}
+
+.f-5-b {
+    font-size: 1.9rem;
+}
+
+.f-5-b .fa-copyright {
+    margin-top: 1%;
+    position: relative;
+    right: 5%;
+}
+
+.f-5-c {
+    display: flex;
+    margin-right: 7%;
+
+}
+
+.f-5-c i {
+    font-size: 2rem;
+    color: #111111;
+    background-color:#f6f6f6;
+    padding: 20% 20%;
+    margin-right: 60%;
+    border-radius: 50%;
 }
