@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO SECTION STYLING */
+#hero {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 0 0 0;
+    padding-left: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+/* SECTION TWO STYLING */
+#two {
+    width: 87%;
+    margin: 11.5% auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    width: 86%;
+    margin: 8% auto 0;
+}
+
+#three .network {
+    background: url(https://images.ctfassets.net/ss5kfr270og3/33fA7JALIWK8AsvPz1QWdS/bcffffae376165ef9e8c06063943c33a/network-desktop__2_.png?fm=webp&w=2938&q=60);
+    background-size: cover;
+    width: 108%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -5%;
+}
+
+.network div {
+    border: 1px solid #a5a2a2;
+    border-radius: 3rem;
+    width: 95%;
+    margin: 20% 0;
+    padding: 13% 7%;
+    z-index: 2;
+}
+
+/* FIVE STYLING */
+#five {
+    width: 85%;
+    margin: 11% auto 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 12%;
+}
+
+#five img {
+    width: 120%;
+    height: 63rem;
+}
+
+
+/* SECTION SIX STYLING */
+#six {
+    width: 87%;
+    margin: 10% auto;
+    background-color: white;
+}
+
+
+
+/* SECTION SEVEN STYLING */
+#seven {
+    background-color: white;
+    width: 88%;
+    margin: 0 auto 10%;
+    border: 1px solid black;
+    height: 30rem;
+    background: url(https://images.ctfassets.net/ss5kfr270og3/7HOKN7T3pSrW62Cpxias0t/a3aa4c23dc5610132d1fe5c2bfc9a40c/CTA_Banner_Art.png?fm=webp&w=2740&q=60) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1.5%;
+    border-radius: 4rem;
+}
+
+
+/* SECTION EIGHT STYLING */
+#eight {
+    background-color: white;
+    display: flex;
+    width: 90%;
+    margin: 5rem auto -130rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eight-img img {
+    width: 110%;
+    height: 102rem;
+    border-top-left-radius: 1rem;
+}
+
+.eight-img .eight-overlay {
+    margin: 0;
+    background-color: rgba(49, 193, 255, 0.5);
+    border-top-left-radius: 1rem;
+    width: 110%;
+    height: 102rem;
+    position: relative;
+    bottom: 102.3rem;
+}
+
+.eight-form {
+    width: 60%;
+    height: 102rem;
+    position: relative;
+    bottom: 61rem;
+    left: 10rem;
+}

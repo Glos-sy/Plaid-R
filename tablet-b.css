@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HERO SECTION STYLING */
+#hero {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 0 0 0;
+    padding: 5% 2rem 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+#hero video {
+    height: 70%;
+    width: 67vw;
+    position: relative;
+    left: -8rem;
+}
+
+.hero-txt {
+    position: relative;
+    bottom: 6rem;
+}
+
+.hero-txt h1 {
+    margin: 0 0 1.8% 0;
+    font-size: 6.5rem;
+}
+
+.hero-txt p {
+    font-size: 2.8rem;
+    margin-bottom: 6%;
+}
+
+
+/* FIVE STYLING */
+#five img {
+    width: 120%;
+    height: 62rem;
+}
+
+/* SIX STYLING */
+nav div i {
+    height: 30px;
+    width: 34.5px;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    position: relative;
+    top: -0.3rem;
+    left: 5rem;
+}

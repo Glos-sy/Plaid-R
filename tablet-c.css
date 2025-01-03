@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO SECTION STYLING */
+#hero {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 0 0 0;
+    padding: 10% 2rem 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+.hero-txt-btn {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero video {
+    height: 70%;
+    width: 67vw;
+    position: relative;
+    left: -8rem;
+}
+
+.hero-txt h1 {
+    margin: 0 0 1.8% 0;
+    font-size: 5rem;
+}
+
+.hero-txt p {
+    font-size: 2.3rem;
+    margin-bottom: 6%;
+}
+
+/* .hero-txt-btn {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+} */
+
+.hero-txt-btn .btn-1 {
+    width: 40rem;
+    padding: 9% 30% 9% 13%;
+    border-radius: 4rem;
+    color: white;
+    background-color: #111111;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.hero-txt-btn .btn-2 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 2% 7%;
+    position: relative;
+    font-size: 2.3rem;
+    border-radius: 4rem;
+    font-weight: bold;
+}
+
+.talk-to-our-team i {
+    font-size: 2.3rem;
+    color: white;
+    position: relative;
+    right: 3rem;
+}
+
+
+/* TRUSTEE SLIDER */
+#trustee-slider h2 {
+    color: #8d7d70;
+    font-size: 3.8rem;
+    font-weight: 500;
+    padding-right: 3%;
+    text-align: center;
+    width: 30rem;
+}
+
+
+/* SECTION TWO STYLING */
+#two {
+    width: 90%;
+    margin: 11.5% auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#two h1 {
+    font-weight: 600;
+    font-size: 5.7rem;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#two p {
+    font-size: 2.4rem;
+    color: #383737;
+    margin-bottom: 11%;
+}
+
+#two input {
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 2.2% 7.5% 2.2% 3%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 34rem;
+    border-radius: 4.5rem;
+}
+
+
+/* THREE STYLING */
+#three h1 {
+    width: 75%;
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+#three .three-txt-p1 {
+    font-size: 2.4rem;
+    color: #383737;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 15%;
+}
+
+
+/* SECTION FIVE STYLING */
+#five {
+    width: 92%;
+    margin: 11% auto 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 12%;
+}
+
+#five h1 {
+    font-size: 5.8rem;
+    font-weight: 600;
+    margin: 0 0 3%;
+}
+
+#five p {
+    font-size: 2.3rem;
+    color: #1f1e1e;
+    margin-bottom: 11%;
+}
+
+#five img {
+    width: 105%;
+    height: 57rem;
+}
+
+#five input {
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 2.7% 8% 2.7% 4%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 35rem;
+    border-radius: 4.5rem;
+}
+
+
+/* SECTION SIX STYLING */
+#six {
+    width: 90%;
+    margin: 10% auto;
+    background-color: white;
+}
+
+
+#six h1 {
+    font-size: 8rem;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #292929;
+    margin: 2% 0;
+}
+
+
+/* SECTION SEVEN STYLING */
+#seven {
+    background-color: white;
+    width: 92%;
+    margin: 0 auto 10%;
+    border: 1px solid black;
+    height: 30rem;
+    background: url(https://images.ctfassets.net/ss5kfr270og3/7HOKN7T3pSrW62Cpxias0t/a3aa4c23dc5610132d1fe5c2bfc9a40c/CTA_Banner_Art.png?fm=webp&w=2740&q=60) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2.3%;
+    border-radius: 4rem;
+}
+
+
+#seven h2 {
+    width: 54rem;
+    font-size: 4.5rem;
+    color: white;
+}
+
+#seven p {
+    width: 38rem;
+    font-size: 2.2rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+
+
+/* EIGHT STYLING */
+#eight {
+    background-color: white;
+    display: flex;
+    width: 95%;
+    margin: 0 auto -140rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover-img-txt h2 {
+    font-size: 7rem;
+}

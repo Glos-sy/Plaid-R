@@ -192,12 +192,12 @@ section {
 }
 
 .hero-txt-btn .btn-1 {
-    width: 180%;
+    width: 36rem;
     padding: 12% 35% 12% 15%;
     border-radius: 4rem;
     color: white;
     background-color: #111111;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
@@ -207,7 +207,7 @@ section {
     border: 2px solid black;
     padding: 5% 10%;
     position: relative;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     border-radius: 4rem;
     position: relative;
     left: 8rem;
@@ -221,10 +221,10 @@ section {
 }
 
 .talk-to-our-team i {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: white;
     position: relative;
-    right: 4.2rem;
+    right: 3rem;
 }
 
 /* Trustee Slider STYLING */
@@ -243,9 +243,11 @@ section {
 
 #trustee-slider h2 {
     color: #8d7d70;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 500;
     padding-right: 3%;
+    text-align: center;
+    width: 30rem;
 }
 
 .slider-line {
@@ -296,13 +298,13 @@ section {
 
 /* #d2d2d2 */
 .s-one-btn {
-    width: 14%;
+    width: 30rem;
     font-size: 2.2rem;
     margin: 3.2% auto;
     text-align: center;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     transition: all 0.1s linear;
 }
 
@@ -318,6 +320,7 @@ section {
     border-radius: 50%;
     margin-top: 0.64%;
     position: relative;
+    left: 4.2rem;
 }
 
 .s-one-btn a {
@@ -333,11 +336,13 @@ section {
     transform: translateX(5px);
     color: white;
     background-color: none;
+    position: relative;
+    left: -2rem;
 }
 
 .s-one-btn:hover {
     color: white;
-    width: 18%;
+    width: 30rem;
     text-align: center;
     background-color: #111111;
     padding: 0.6% 2% 0.7% 1%;
@@ -389,7 +394,7 @@ section {
     padding: 2.6% 8% 2.6% 3.5%;
     font-size: 2.5rem;
     font-weight: 600;
-    width: 40%;
+    width: 34rem;
     border-radius: 4.5rem;
 }
 
@@ -397,7 +402,7 @@ section {
     font-size: 2.5rem;
     color: white;
     position: relative;
-    left: -7%;
+    right: 7rem;
 }
 
 #two input:hover, #five input:hover {
@@ -433,6 +438,7 @@ section {
 .network {
     background: url(https://images.ctfassets.net/ss5kfr270og3/33fA7JALIWK8AsvPz1QWdS/bcffffae376165ef9e8c06063943c33a/network-desktop__2_.png?fm=webp&w=2938&q=60);
     background-size: cover;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -462,6 +468,7 @@ section {
 
 .sub-network-a, .sub-network-b {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -519,11 +526,12 @@ section {
 }
 
 #five img {
-    width: 100%;
+    width: 105%;
+    height: 65rem;
 }
 
 #five .five-txt {
-    width: 45%;
+    width: 50%;
 }
 
 #five h1 {
@@ -545,7 +553,7 @@ section {
     padding: 2.7% 8% 2.7% 4%;
     font-size: 2.5rem;
     font-weight: 600;
-    width: 55%;
+    width: 40rem;
     border-radius: 4.5rem;
 }
 
@@ -553,7 +561,7 @@ section {
     font-size: 2.6rem;
     color: white;
     position: relative;
-    left: -7.6%;
+    right: 6rem;
 }
 
 
@@ -622,7 +630,8 @@ section {
 }
 
 nav div {
-    width: 15%;
+    text-align: center;
+    width: 27rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -632,7 +641,7 @@ nav div a {
     font-weight: 500;
     width: 100%;
     font-size: 2.2rem;
-    padding: 0 0 2% 0;
+    padding: 2% 0 2% 0;
     margin-left: 7%;
     margin-top: -6%;
 }
@@ -646,10 +655,10 @@ nav div i {
     height: 30px;
     width: 34.5px;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 2.3rem;
     position: relative;
-    top: -0.2rem;
-    left: 1.2rem;
+    top: -0.3rem;
+    left: 3rem;
 }
 
 nav div i:hover {
@@ -674,8 +683,8 @@ nav div:hover {
     flex-wrap: wrap;
 }
 
-#six .six-img-section div {
-    width: 32.3%;
+#six .six-img-section .affirm, #six .six-img-section .chime, #six .six-img-section .robinhood {
+    width: 32%;
     display: flex;
     flex-direction: column;
     border-radius: 0.7rem;
@@ -691,6 +700,11 @@ nav div:hover {
     background-color: white;
 }
 
+#read-more-chime, #read-more-affirm, #read-more-robin {
+    width: 30rem;
+    padding: 1rem;
+}
+
 .six-img-section div h3 {
     font-size: 2.9rem;
     color: #292929;
@@ -702,6 +716,7 @@ nav div:hover {
     font-size: 2.3rem;
     font-weight: 600;
     color: #292929;
+    width: 100%;
 }
 
 .r-txt a:hover, .a-txt a:hover, .c-txt a:hover {
@@ -714,7 +729,7 @@ nav div:hover {
 .six-img-section div i {
     font-size: 2rem;
     background-color:#c7c7c7;
-    width: 8.5%;
+    width: 3rem;
     padding: 2% 2.5% 2% 2%;
     border-radius: 50%;
 }
@@ -756,7 +771,7 @@ nav div:hover {
 }
 
 #seven input {
-    width: 21rem;
+    width: 20rem;
     background-color: white;
     color: black;
     font-size: 2.5rem;
@@ -775,7 +790,7 @@ nav div:hover {
     color: black;
     font-size: 2.5rem;
     position: relative;
-    left: -6%;
+    right: 3.5rem;
 }
 
 #seven i:hover {
@@ -787,7 +802,7 @@ nav div:hover {
     background-color: white;
     display: flex;
     width: 90%;
-    margin: 0 auto -140rem;
+    margin: 0 auto -120rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -831,7 +846,7 @@ nav div:hover {
     width: 50%;
     height: 102rem;
     position: relative;
-    bottom: 74rem;
+    bottom: 50rem;
     left: 10rem;
 }
 
@@ -859,10 +874,9 @@ select {
 
 .eight-form i {
     font-size: 2.7rem;
-    position: relative;
-    right: 16rem;
-    top: 0.2rem;
     color: white;
+    display: inline;
+    margin-left: -13rem;
 }
 
 #l-name, #f-name {
