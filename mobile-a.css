@@ -26,3 +26,397 @@
     width: 100%;
     text-align: center;
 }
+
+.hero-txt h1 {
+    font-size: 8rem;
+}
+
+.hero-txt p {
+    font-size: 3rem;
+    margin-bottom: 6%;
+}
+
+#hero video {
+    height: 40%;
+    width: 120%;
+    margin-top: 23%;
+}
+
+
+/* Trustee Slider STYLING */
+#trustee-slider h2 {
+    color: #8d7d70;
+    font-size: 3rem;
+}
+
+
+/* SECTION ONE STYLING */
+#one {
+    width: 95%;
+    margin: 0 auto 0;
+    padding: 10% 0;
+}
+
+#one h1 {
+    width: 95%;
+    margin: 10% auto 4%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 7.8rem;
+}
+
+#one p {
+    width: 95%;
+    margin: 0 auto 2%;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #383737;
+}
+
+.s-one-btn {
+    width: 33rem;
+    font-size: 2.3rem;
+    margin: 4% auto;
+}
+
+.s-one-btn i:hover {
+    transform: translateX(-5px);
+    color: white;
+    background-color: none;
+    position: relative;
+    left: 2rem;
+}
+
+.s-one-btn:hover {
+    color: white;
+    width: 30rem;
+    text-align: center;
+    background-color: #111111;
+    padding: 0.6% 2% 0.7% 0%;
+    border-radius: 10rem;
+}
+
+
+
+/* SECTION TWO STYLING */
+/* font-size: 7.8rem; */
+/* font-size: 2.8rem; */
+#two {
+    width: 100%;
+    margin: 11.5% auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#two div {
+    width: 90%;
+}
+
+#two img {
+    width: 100%;
+}
+
+#two .s-two-txt {
+    width: 90%;
+    text-align: center;
+}
+
+#two h1 {
+    font-size: 7.8rem;
+    margin-bottom: 4%;
+}
+
+#two p {
+    font-size: 2.8rem;
+    color: #383737;
+    margin-bottom: 11%;
+}
+
+#two input {
+    margin-top: -2rem;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    width: 95%;
+    margin: 8% auto 0;
+}
+
+#three h1 {
+    width: 95%;
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 7.8rem;
+}
+
+.network {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.network div {
+    border: 1px solid #a5a2a2;
+    border-radius: 3rem;
+    width: 145%;
+    margin: 20% 0 20% -30%;
+    padding: 17% 9%;
+    z-index: 2;
+}
+
+.sub-network-a .slide-left {
+    position: relative;
+    left: 0;
+}
+
+.sub-network-b {
+    width: 53%;
+}
+
+
+/* SECTION FIVE STYLING */
+#five {
+    width: 92%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#five div {
+    width: 100%;
+}
+
+#five .five-txt {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#five img {
+    width: 105%;
+    height: 70rem;
+}
+
+#five h1 {
+    font-size: 7.8rem;
+}
+
+#five p {
+    font-size: 2.8rem;
+}
+
+#five input {
+    margin-top: -13rem;
+    margin-bottom: 5%;
+}
+
+
+/* SECTION SIX STYLING */
+#six {
+    width: 95%;
+    margin: 10% auto;
+    background-color: white;
+}
+
+#six h1 {
+    font-size: 6rem;
+    padding: 3% 0;
+}
+
+#six nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1%;
+}
+
+
+#six nav ul {
+    margin-left: -20rem;
+    width: 78%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#six ul li {
+    font-size: 2rem;
+    padding: 1% 1.5%;
+}
+
+nav div {
+    text-align: center;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+nav div a {
+    position: relative;
+    right: 31rem;
+    width: 70%;
+}
+
+nav div i {
+    height: 30px;
+    width: 34.5px;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    position: relative;
+    top: -0.3rem;
+    left: -7.5rem;
+}
+
+nav div a:hover {
+    background-color: #111111;
+    padding: 3% 2% 3% 1%;
+    border-radius: 3rem;
+    color: white;
+}
+
+.six-img-section {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#six .six-img-section .affirm, #six .six-img-section .chime, #six .six-img-section .robinhood {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.7rem;
+    border: 1px solid #616060;
+    margin: 4% 0;
+}
+
+#read-more-chime, #read-more-affirm, #read-more-robin {
+    width: 40rem;
+    padding: 1rem;
+}
+
+.six-img-section div h3 {
+    font-size: 3.5rem;
+    color: #292929;
+    margin: 6% 0 5%;
+}
+
+
+/* SECTION SEVEN STYLING */
+#seven {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5% 3%;
+}
+
+#seven h2 {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#seven p {
+    width: 100%;
+    text-align: center;
+}
+
+#seven input {
+    width: 20rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#seven i {
+    color: black;
+    font-size: 2.2rem;
+    position: relative;
+    right: -7rem;
+    top: -4rem;
+}
+
+
+/* SECTION EIGHT STYLING */
+#eight {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20% 0 -80rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eight-img {
+    width: 95%;
+}
+
+.eight-img img {
+    width: 110%;
+    height: 30rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.eight-img .eight-overlay {
+    margin: 0;
+    background-color: rgba(49, 193, 255, 0.5);
+    border-top-left-radius: 1rem;
+    width: 110%;
+    height: 30rem;
+    position: relative;
+    bottom: 30.2rem;
+}
+
+.cover-img-txt {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 52rem;
+}
+
+.cover-img-txt h2 {
+    font-size: 4rem;
+}
+
+.eight-form {
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 10% 0 10% 20%;
+    width: 104.3%;
+    height: 82rem;
+    position: relative;
+    top: -46.7rem;
+    left: 3.4rem;
+}
+
+.eight-form h3 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+
+
+/* FOOTER STYLING */
+footer {
+    padding: 45% 0 0;
+}
