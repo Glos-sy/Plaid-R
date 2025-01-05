@@ -28,7 +28,7 @@
 
 #hero video {
     height: 70%;
-    width: 67vw;
+    width: 73vw;
     position: relative;
     left: -8rem;
 }
@@ -55,8 +55,8 @@
 } */
 
 .hero-txt-btn .btn-1 {
-    width: 40rem;
-    padding: 9% 30% 9% 13%;
+    width: 47rem;
+    padding: 11% 50% 11% 15%;
     border-radius: 4rem;
     color: white;
     background-color: #111111;
@@ -68,15 +68,17 @@
     background-color: transparent;
     color: black;
     border: 2px solid black;
-    padding: 2% 7%;
+    padding: 3% 10%;
     position: relative;
+    left: -1.2rem;
     font-size: 2.3rem;
     border-radius: 4rem;
     font-weight: bold;
+    width: 22rem;
 }
 
 .talk-to-our-team i {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: white;
     position: relative;
     right: 3rem;
@@ -86,11 +88,54 @@
 /* TRUSTEE SLIDER */
 #trustee-slider h2 {
     color: #8d7d70;
-    font-size: 3.8rem;
+    font-size: 3.6rem;
     font-weight: 500;
     padding-right: 3%;
     text-align: center;
     width: 30rem;
+}
+
+
+/* SECTION ONE STYLING */
+#one {
+    width: 80%;
+    margin: 5% auto;
+}
+
+#one h1 {
+    width: 89%;
+    margin: 4% auto 4.8%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 6.5rem;
+}
+
+#one p {
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #383737;
+}
+
+.s-one-btn {
+    width: 30rem;
+    font-size: 2rem;
+    margin: 3.2% auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s linear;
+}
+
+.s-one-btn:hover {
+    color: white;
+    width: 30rem;
+    text-align: center;
+    background-color: #111111;
+    padding: 1% 3% 1% 2%;
+    border-radius: 10rem;
 }
 
 
@@ -105,13 +150,13 @@
 
 #two h1 {
     font-weight: 600;
-    font-size: 5.7rem;
+    font-size: 5.5rem;
     margin: 0;
     margin-bottom: 2%;
 }
 
 #two p {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     color: #383737;
     margin-bottom: 11%;
 }
@@ -121,7 +166,7 @@
     color: white;
     border: none;
     padding: 2.2% 7.5% 2.2% 3%;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 600;
     width: 34rem;
     border-radius: 4.5rem;
@@ -129,20 +174,37 @@
 
 
 /* THREE STYLING */
+#three {
+    width: 83%;
+    margin: 13% auto 0;
+}
+
 #three h1 {
     width: 75%;
     margin: 0 auto 3%;
     text-align: center;
-    font-size: 7rem;
+    font-size: 6.5rem;
     font-weight: 600;
 }
 
 #three .three-txt-p1 {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     color: #383737;
     width: 75%;
     text-align: center;
     margin: 0 auto 15%;
+}
+
+.network div h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 2.6% 0 2.8%;
+}
+
+.network div p {
+    font-size: 2.4rem;
+    color: #383737;
+    margin: 3% 0 2%;
 }
 
 
@@ -158,20 +220,20 @@
 }
 
 #five h1 {
-    font-size: 5.8rem;
+    font-size: 5.3rem;
     font-weight: 600;
     margin: 0 0 3%;
 }
 
 #five p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: #1f1e1e;
     margin-bottom: 11%;
 }
 
 #five img {
     width: 105%;
-    height: 57rem;
+    height: 55rem;
 }
 
 #five input {
@@ -179,7 +241,7 @@
     color: white;
     border: none;
     padding: 2.7% 8% 2.7% 4%;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 600;
     width: 35rem;
     border-radius: 4.5rem;
@@ -193,12 +255,67 @@
     background-color: white;
 }
 
-
 #six h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     padding-bottom: 1%;
     border-bottom: 1px solid #292929;
     margin: 2% 0;
+}
+
+#six nav ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#six ul li {
+    list-style-type: none;
+    font-size: 2.3rem;
+    padding: 1.7% 3%;
+    border-radius: 3rem;
+    font-weight: 600;
+    margin: 0 0 2%;
+}
+
+nav div a {
+    font-weight: 500;
+    width: 100%;
+    font-size: 2rem;
+    padding: 2% 0 2% 0;
+    margin-left: 7%;
+    margin-top: -6%;
+}
+
+nav div i {
+    height: 30px;
+    width: 34.5px;
+    border-radius: 50%;
+    font-size: 2rem;
+    position: relative;
+    top: -0.3rem;
+    left: 5rem;
+}
+
+.six-img-section div h3 {
+    font-size: 2.3rem;
+    color: #292929;
+    margin: 6% 0 9%;
+}
+
+.six-img-section div a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #292929;
+    width: 100%;
+}
+
+.six-img-section div i {
+    font-size: 1.8rem;
+    background-color:#c7c7c7;
+    width: 3rem;
+    padding: 2% 2.5% 2% 2%;
+    border-radius: 50%;
 }
 
 
@@ -221,16 +338,32 @@
 
 #seven h2 {
     width: 54rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: white;
 }
 
 #seven p {
-    width: 38rem;
-    font-size: 2.2rem;
+    width: 32rem;
+    font-size: 2rem;
     word-spacing: 0.1rem;
     letter-spacing: 0.1rem;
     color: white;
+}
+
+#seven input {
+    width: 20rem;
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    padding: 6% 9% 6% 0;
+    border-radius: 3rem;
+}
+
+#seven i {
+    color: black;
+    font-size: 2.3rem;
+    position: relative;
+    right: 3.5rem;
 }
 
 
@@ -247,4 +380,81 @@
 
 .cover-img-txt h2 {
     font-size: 7rem;
+}
+
+.eight-img {
+    width: 65%;
+}
+
+.eight-img img {
+    width: 110%;
+    height: 95rem;
+    border-top-left-radius: 1rem;
+}
+
+.eight-img .eight-overlay {
+    margin: 0;
+    background-color: rgba(49, 193, 255, 0.5);
+    border-top-left-radius: 1rem;
+    width: 110%;
+    height: 95rem;
+    position: relative;
+    bottom: 95.2rem;
+}
+
+.cover-img-txt {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 177rem;
+}
+
+.cover-img-txt h2 {
+    font-size: 7.5rem;
+}
+
+.eight-form {
+    width: 70%;
+    height: 95rem;
+    position: relative;
+    bottom: 65rem;
+    left: 10rem;
+}
+
+.eight-form h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.eight-form input, select {
+    padding: rem;
+    width: 73.4%;
+    margin-bottom: 3.5%;
+    font-size: 2rem;
+    border-radius: 0.9rem;
+}
+
+#eight p {
+    font-size: 1.8rem;
+    color: #292929;
+    width: 80%;
+}
+
+
+/* FOOTER STYLING */
+.footer-main section h2 {
+    font-size: 2.1rem;
+    padding: 6% 0 2.5% 0;
+}
+
+
+.footer-main section a {
+    color: #f6f6f6;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
 }

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO SECTION */
+#hero {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 0 0 0;
+    padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+#hero div {
+    width: 100%;
+}
+
+.hero-txt {
+    width: 100%;
+    text-align: center;
+}
