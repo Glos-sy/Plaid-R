@@ -1,0 +1,80 @@
+* {
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HERO STYLING */
+#hero {
+    width: 100%;
+}
+
+.hero-txt h1 {
+    font-size: 4.5rem;
+    width: 100%;
+}
+
+.hero-txt p {
+    font-size: 2.5rem;
+}
+
+#mobile-hero-btn {
+    margin-top: -8rem;
+}
+
+.hero-txt #ttt input {
+    text-align: left;
+    width: 53%;
+    padding: 3% 3% 3% 3%;
+    font-size: 2.3rem;
+    border: none;
+    background-color: #111111;
+    color: white;
+    border-radius: 5rem;
+}
+
+.hero-txt #ttt i {
+    color: white;
+    font-size: 2.1rem;
+}
+
+#mobile-hero-btn .bottom-btn {
+    width: 45%;
+    padding: 2%;
+    font-size: 2.1rem;
+    border: 2px solid #111111;
+    background-color: white;
+    color: #111111;
+    border-radius: 4rem;
+}
+
+#hero video {
+    margin-top: -15%;
+    margin-left: 2.9rem;
+}
+
+
+
+/* Trustee Slider STYLING */
+/* #8d7d70 */
+#trustee-slider {
+    background-color: white;
+    margin: -0.40% 0 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 5% 10%;
+    border-bottom: 2px solid #8d7d70;
+    border-top: 2px solid #8d7d70;
+}
+
+#trustee-slider h2 {
+    color: #8d7d70;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-right: 3%;
+    text-align: center;
+    width: 40rem;
+}
