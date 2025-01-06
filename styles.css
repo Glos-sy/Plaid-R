@@ -214,6 +214,10 @@ section {
     font-weight: bold;
 }
 
+#mobile-hero-btn {
+    display: none;
+}
+
 .talk-to-our-team {
     display: flex;
     justify-content: center;

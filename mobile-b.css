@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO SECTION */
+.hero-txt h1 {
+    font-size: 7rem;
+}
+
+.hero-txt p {
+    font-size: 2.5rem;
+    margin-bottom: 6%;
+}
+
+#mobile-hero-btn {
+    position: relative;
+    top: -6rem;
+}
+
+.hero-txt #ttt input {
+    text-align: left;
+    width: 45%;
+    padding: 2.5% 2.5% 2.5% 3.5%;
+    font-size: 2.5rem;
+    border: none;
+    background-color: #111111;
+    color: white;
+    border-radius: 5rem;
+}
+
+.hero-txt #ttt i {
+    font-size: 2.2rem;
+    right: 3.7rem;
+}
+
+#mobile-hero-btn .bottom-btn {
+    width: 35%;
+    padding: 2%;
+    font-size: 2.5rem;
+    border: 2px solid #111111;
+    background-color: white;
+    color: #111111;
+    border-radius: 4rem;
+    margin-top: -2rem;
+}
+
+#hero video {
+    height: 40%;
+    width: 130%;
+    margin-top: 2%;
+}
+
+
+/* TRUSTEE SLIDER STYLING */
+#trustee-slider {
+    background-color: white;
+    margin: -0.40% 0 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0 4% 10%;
+    border-bottom: 2px solid #8d7d70;
+    border-top: 2px solid #8d7d70;
+}
+
+#trustee-slider h2 {
+    font-size: 2.7rem;
+}
+
+
+/* SECTION ONE STYLING */
+#one h1 {
+    width: 95%;
+    margin: 10% auto 4%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 6rem;
+}
+
+#one p {
+    width: 95%;
+    margin: 0 auto 2%;
+    text-align: center;
+    font-size: 2.1rem;
+    color: #383737;
+}
+
+.s-one-btn {
+    width: 33rem;
+    font-size: 2.1rem;
+    margin: 4% auto;
+}
+
+
+/* SECTION TWO STYLING */
+#two h1 {
+    font-size: 6rem;
+    margin-bottom: 4%;
+}
+
+#two p {
+    font-size: 2.1rem;
+    color: #383737;
+    margin-bottom: 11%;
+}
+
+#two input {
+    font-size: 2.2rem;
+    margin-top: -1rem;
+}
+
+#two i {
+    font-size: 2.2rem;
+    color: white;
+    position: relative;
+    right: 7rem;
+}
+
+
+/* SECTION THREE STYLING */
+
+#three h1 {
+    width: 98%;
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 6rem;
+}
+
+#three .three-txt-p1 {
+    font-size: 2.1rem;
+    width: 100%;
+}
+
+.network div {
+    border: 1px solid #a5a2a2;
+    border-radius: 3rem;
+    width: 125%;
+    margin: 20% 0 20% -15%;
+    padding: 17% 9%;
+    z-index: 2;
+}
+
+.sub-network-b {
+    width: 44rem;
+}
+
+
+/* SECTION FIVE STYLING */
+#five img {
+    width: 105%;
+    height: 60rem;
+}
+
+#five h1 {
+    font-size: 6rem;
+}
+
+#five p {
+    font-size: 2.1rem;
+}
+
+#five input {
+    font-size: 2.2rem;
+}
+
+
+
+/* SECTION SIX STYLING */
+#six {
+    width: 98%;
+    margin: 10% auto;
+    background-color: white;
+}
+
+#six h1 {
+    font-size: 4.7rem;
+    padding: 3% 0;
+}
+
+#six nav ul {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav div a {
+    position: relative;
+    right: 0rem;
+    width: 70%;
+}
+
+nav div i {
+    height: 30px;
+    width: 34.5px;
+    border-radius: 50%;
+    font-size: 2.1rem;
+    position: relative;
+    top: -0.3rem;
+    left: 6rem;
+}
+
+#six .six-img-section .affirm, #six .six-img-section .chime, #six .six-img-section .robinhood {
+    width: 85%;
+}
+
+.six-img-section div h3 {
+    font-size: 3.3rem;
+}
+
+
+/* SECTION SEVEN STYLING */
+#seven {
+    padding: 2% 4%;
+}
+
+#seven h2 {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3.3rem;
+}
+
+#seven p {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* SECTION EIGHT STYLING */
+.cover-img-txt {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 52rem;
+}
+
+.eight-form {
+    background-color: #f6f6f6;
+    margin: 0 0 8rem 0;
+    padding: 10% 0 5% 18%;
+    width: 104.3%;
+    height: 82rem;
+    position: relative;
+    top: -46.7rem;
+    left: 2.79rem;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+}
+.footer-main section h2 {
+    font-size: 2.4rem;
+    padding: 6% 0 2.5% 0;
+}

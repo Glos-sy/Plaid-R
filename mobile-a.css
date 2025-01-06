@@ -18,13 +18,60 @@
     background-color: white;
 }
 
+.hero-txt-btn .btn-1 {
+    display: none;
+}
+
+.hero-txt-btn .btn-2 {
+    display: none;
+}
+
+#mobile-hero-btn {
+    display: block;
+    background-color: white;
+}
+
 #hero div {
     width: 100%;
+    background-color: white;
+}
+
+#ttt {
+    background-color: white;
+    margin-bottom: 4rem;
 }
 
 .hero-txt {
     width: 100%;
     text-align: center;
+}
+
+.hero-txt #ttt input {
+    text-align: left;
+    width: 45%;
+    padding: 3% 3% 3% 4%;
+    font-size: 2.9rem;
+    border: none;
+    background-color: #111111;
+    color: white;
+    border-radius: 5rem;
+}
+
+.hero-txt #ttt i {
+    color: white;
+    font-size: 2.6rem;
+    position: relative;
+    right: 6rem;
+}
+
+#mobile-hero-btn .bottom-btn {
+    width: 35%;
+    padding: 2%;
+    font-size: 2.8rem;
+    border: 2px solid #111111;
+    background-color: white;
+    color: #111111;
+    border-radius: 4rem;
 }
 
 .hero-txt h1 {
@@ -39,7 +86,7 @@
 #hero video {
     height: 40%;
     width: 120%;
-    margin-top: 23%;
+    margin-top: 5%;
 }
 
 
@@ -174,7 +221,7 @@
 }
 
 .sub-network-b {
-    width: 53%;
+    width: 43rem;
 }
 
 
@@ -238,7 +285,7 @@
 
 
 #six nav ul {
-    margin-left: -20rem;
+    margin-left: -16rem;
     width: 78%;
     display: flex;
     justify-content: space-evenly;
@@ -262,7 +309,7 @@ nav div {
 
 nav div a {
     position: relative;
-    right: 31rem;
+    right: 30rem;
     width: 70%;
 }
 
@@ -346,7 +393,7 @@ nav div a:hover {
     font-size: 2.2rem;
     position: relative;
     right: -7rem;
-    top: -4rem;
+    top: -4.3rem;
 }
 
 
