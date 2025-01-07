@@ -1,0 +1,124 @@
+* {
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO STYLING */
+.hero-txt #ttt input {
+    text-align: left;
+    width: 70%;
+    padding: 3% 3% 3% 6%;
+    font-size: 2.3rem;
+    border: none;
+    background-color: #111111;
+    color: white;
+    border-radius: 5rem;
+}
+
+.hero-txt h1 {
+    font-size: 4rem;
+}
+
+.hero-txt p {
+    font-size: 2rem;
+    margin-bottom: -0.8rem;
+}
+
+
+/* SECTION ONE STYLING */
+#one h1 {
+    font-size: 3.8rem;
+}
+
+#one p {
+    font-size: 1.8rem;
+}
+
+
+/* SECTION THREE STYLING */
+#three h1 {
+    font-size: 3.8rem;
+}
+
+
+/* SECTION STYLING */
+#five img {
+    width: 105%;
+    height: 45rem;
+}
+
+#five input {
+    margin-top: 2.3rem;
+}
+
+
+/* SECTION SIX STYLING */
+#six .six-img-section .affirm, #six .six-img-section .chime, #six .six-img-section .robinhood {
+    width: 95%;
+}
+
+#six .six-img-section .affirm img, #six .six-img-section .chime img, #six .six-img-section .robinhood img {
+    height: 40rem;
+}
+
+
+
+/* SEVEN STYLING */
+#seven i {
+    top: -5.7rem;
+}
+
+
+
+/* SECTION EIGHT STYLING */
+.eight-form {
+    top: -56.7rem;
+    left: 1.6rem;
+    padding: 10% 0 5% 6%;
+    height: 97rem;
+}
+
+.cover-img-txt {
+    width: 95%;
+}
+
+.cover-img-txt h2 {
+    font-size: 3rem;
+}
+
+.eight-form h3 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.eight-form input, select {
+    padding: 1.5rem;
+}
+
+
+
+/* FOOTER STYLING */
+.footer-main section h2 {
+    font-size: 2.3rem;
+    padding: 8% 0 2.5% 0;
+}
+
+.footer-main section a {
+    color: #f6f6f6;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+
+#f-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f-5-b i {
+    position: relative;
+    top: 1.3rem;
+}

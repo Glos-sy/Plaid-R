@@ -1,0 +1,138 @@
+* {
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO STYLING */
+.hero-txt #ttt input {
+    text-align: left;
+    width: 61%;
+    padding: 3% 3% 3% 4%;
+    font-size: 2.3rem;
+    border: none;
+    background-color: #111111;
+    color: white;
+    border-radius: 5rem;
+}
+
+
+/* THREE STYLING */
+#three h1 {
+    margin-bottom: 2rem
+}
+
+.network div {
+    border: 1px solid #a5a2a2;
+    border-radius: 3rem;
+    width: 85%;
+    margin: 20% 0 20% 2%;
+    padding: 9% 9%;
+    z-index: 2;
+}
+
+.sub-network-b {
+    width: 34rem;
+}
+
+.network div p {
+    font-size: 1.8rem;
+    color: #383737;
+    margin: 3% 0 2%;
+}
+
+.network div h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 2.6% 0 2.8%;
+}
+
+
+/* SECTION FIVE STYLING */
+#five img {
+    width: 100%;
+    height: 43rem;
+}
+
+#five input {
+    margin-top: 1.5rem;
+}
+
+
+/* SIX STYLING */
+nav div a {
+    position: relative;
+    right: 12rem;
+}
+
+nav div i {
+    font-size: 1.6rem;
+    position: relative;
+    top: -1.35rem;
+    left: 9.5rem;
+}
+
+.r-txt, .a-txt, .c-txt {
+    margin-top: -3rem;
+    width: 100%;
+}
+
+.r-txt h3, .a-txt h3 h3, .c-txt h3 {
+    margin-top: -2rem;
+    width: 100%;
+    font-size: 2rem;
+}
+
+#read-more-affirm, #read-more-robin, #read-more-chime {
+    margin-top: -2.5rem;
+    margin-left: 6.5rem;
+}
+
+
+
+/* SEVEN STYLING */
+#seven input {
+    font-size: 2rem;
+    padding: 6% 8% 6% 0;
+    border-radius: 3rem;
+}
+
+#seven i {
+    color: black;
+    font-size: 1.8rem;
+    top: -5.5rem;
+}
+
+
+/* SECTION EIGHT STYLING */
+.eight-form {
+    top: -56.7rem;
+    left: 1.8rem;
+    padding: 10% 0 5% 6%;
+    height: 108rem;
+}
+
+
+/* FOOTER STYLING */
+.footer-main section h2 {
+    font-size: 2.5rem;
+    padding: 6% 0 2.5% 0;
+}
+
+.footer-main section a {
+    color: #f6f6f6;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+#f-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f-5-b i {
+    position: relative;
+    top: 1.3rem;
+}
