@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER STYLING */
+header nav {
+    display: none;
+}
+
+header {
+    color:#111111;
+    margin-top: 2.5%;
+    margin-bottom: 2.5rem;
+}
+
+.login-btn {
+    display: none;
+}
+
+.fa-bars {
+    font-size: 3rem;
+    visibility: visible;
+}

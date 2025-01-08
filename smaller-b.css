@@ -25,6 +25,21 @@
     margin-bottom: -0.8rem;
 }
 
+/* Trustee Slider STYLING */
+#trustee-slider h2 {
+    color: #8d7d70;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-right: 3%;
+    text-align: center;
+    width: 40rem;
+}
+
+#trustee-slider .s-one-img img {
+    width: 35%;
+    height: 25%;
+}
+
 
 /* SECTION ONE STYLING */
 #one h1 {

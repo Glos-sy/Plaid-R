@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLING */
+header {
+    color:#111111;
+    margin-top: -14%;
+    margin-bottom: 2.5rem;
+}
+
+
 
 /* HERO STYLING */
 #hero {
@@ -78,6 +86,11 @@
     padding-right: 3%;
     text-align: center;
     width: 40rem;
+}
+
+#trustee-slider .s-one-img img {
+    width: 35%;
+    height: 25%;
 }
 
 

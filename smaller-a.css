@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLING */
+header {
+    color:#111111;
+    margin-top: -20%;
+    margin-bottom: 2.5rem;
+}
+
 /* HERO STYLING */
 .hero-txt #ttt input {
     text-align: left;
